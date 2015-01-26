@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">K7UIDemo</string>
+    
+    <string name="test_cool_view_pager">CoolViewPager Demo</string>
+    <string name="test_custom_dlg">Custom Dialog Demo</string>
+    <string name="test_drag_text_view">Drag Text Demo</string>
+    <string name="test_drag_component">Drag component Demo</string>
+    <string name="test_canvas_effect_view">Canvas EffectView Demo</string>
+    <string name="test_gl_effect_view">GL EffectView Demo</string>
+    <string name="test_canvas_effect_page_container">Canvas EffectPageContainer Demo</string>
+    <string name="test_gl_effect_page_container">GL EffectPageContainer Demo</string>
+    <string name="test_bounce_list_view">Bounce ListView Demo</string>
+    <string name="test_gl_bk">GL Background Demo</string>
+    <string name="test_state_machine">State Machine Demo</string>
+    
+    <string name="test_page_container">PageContainer Demo</string>
+    
+    <string name="quality">High Quality</string>
+    <string name="reverse">Reverse</string>
+    <string name="fill">Fill</string>
+    
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="loop">Loop</string>
+    <string name="loading">Loading</string>
+    
+    <!--  
+    <string name="test_large_text">Helper for getFlags(), returning true if DITHER_FLAG bit is set Dithering affects how colors that are higher precision than the device are down-sampled. No dithering is generally faster, but higher precision colors are just truncated down (e.g. 8888 -> 565). Dithering tries to distribute the error inherent in this process, to reduce the visual artifacts!</string>
+    -->
+    <string name="test_large_text">手机导航见靠的是建行卡的精髓疯狂死的几率咖啡的老客户剪纽扣手机号辽阔的建行卡蓝色的见疯狂蓝色的见福克斯的家伙卢卡斯的进口铝合金圣诞快乐哈的快速路接口思考和记录的快尽可能地少建行卡里健康的洛杉矶疯狂蓝色的见刻录机考试的家伙的精髓快来看蓝色的见V2.0 hello</string>
+    <string name="test_very_large_text">手机导航见靠的是建行卡的精髓疯狂死的几率咖啡的老客户剪纽扣手机号辽阔的建行卡蓝色的见疯狂蓝色的见福克斯的家伙卢卡斯的进口铝合金圣诞快乐哈的快速路接口思考和记录的快尽可能地少建行卡里健康的洛杉矶疯狂蓝色的见刻录机考试的家伙的精髓快来看蓝色的见V2.0 hello考虑升级罕见的靠进口的耐蚀合金说的建行卡里技术的老客户进口商的铝合金快乐就好考虑升级的哈伦裤案件斯诺克的痕迹啥的克难奋进说的家伙卢卡斯建行卡里的水建行卡的记录反馈就算了咖啡机第三款铝合金卢卡斯的件很凉快的手机坏了快速点击很凉快建行卡来得及很凉快说的家伙快蓝色的见很凉快说的家伙卢卡斯的件很凉快说的家伙了肯德基和卢卡斯的见很凉快说的家伙卢卡斯的见哈卢卡斯的见很凉快说的家伙卢卡斯的见哈辽阔的谁见很凉快说的家伙卢卡斯的解放路空间哈卢卡斯的见很凉快说的家伙卢卡斯的见哈路口束带结发良家妇女说的家伙良家妇女快速点击很凉快说的家伙入口的技术含量快的手机坏了快睡觉很凉快的数据你看克难奋进人生苦短尽量快圣诞节老数据的很凉快说的家伙卢卡斯的解放路卡机sd卡黑龙江省绿壳蛋鸡空间很凉快的手机号那可就偶空间私人空间华军软件连裤袜尽量快含税单价很凉快忘记湖南省级很凉快文件容量会计分录空间老两口就很凉快文件容量客家话考虑升级很坚决机会难得见六维空间快受得了房间内空间刻录机良家妇女口味解放路会计分录我饥饿了福建省良家妇女记录卡快的手机坏了看电视剧能得几时好落砂机哈尽量快圣诞节忽略快速家很垃圾啥时候空间扣篮大赛基赫纳斯的解放路口角生风王府井受得了会计分录会计分录撒酒疯卢卡斯加黑龙江省很凉快结尾你快说话剪纽扣手机号卢卡斯的见卢卡斯加的哈伦裤健身房江南红箭南沙的家伙绿卡记录数据和良家少妇拉丝机黑龙江啊您花季未了空间很晚了klsjfklwejlkrjlwkjflkajflk jlkjldkjflkawjeflkwjlkfjkljrkljflkwjlrkjfklsdjflkwja 说的家伙软件技术入口的哈剪纽扣手机号卢卡斯</string>
+    <string name="test_small_text">Hello I am small text</string>
+    
+</resources>

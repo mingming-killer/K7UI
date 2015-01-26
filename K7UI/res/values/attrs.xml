@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:k7ui="http://schemas.android.com/apk/res/com.eebbk.mingming.k7ui"
+    >
+    
+    <!-- 
+    	EffectPageContaienr specific attributes. These attributes are used to customize
+        a EffectPageContainer view in XML files. 
+    -->
+    <declare-styleable name="EffectView">
+        <attr name="k7uievNeedTran" format="boolean"  />
+    </declare-styleable>
+    
+    <!-- 
+    	EffectPageContaienr specific attributes. These attributes are used to customize
+        a EffectPageContainer view in XML files. 
+    -->
+    <declare-styleable name="EffectPageContainer">
+        <attr name="k7uiepcUseGL" format="boolean"  />
+        <attr name="k7uiepcEffector" format="string"  />
+        <attr name="k7uiepcOrientation" format="string"  />
+        <attr name="k7uiepcLoopShow" format="boolean"  />
+        <attr name="k7uiepcScrollLevel" format="string"  />
+        <attr name="k7uiepcReverse" format="boolean"  />
+    </declare-styleable>
+    
+    
+    <!-- 
+    	ScrollContainer specific attributes. These attributes are used to customize
+        a ScrollContainer view in XML files. 
+    -->
+    <declare-styleable name="ScrollContainer">
+        <!-- debug fps switch -->
+        <attr name="k7uiscShowFPS" format="boolean"  />
+        
+        <!-- over scroll switch -->
+        <attr name="k7uiscAllowOverScroll" format="boolean"  />
+        
+        <!-- count of one page child number. -->
+        <attr name="k7uiscPageCapacity" format="integer"  />
+        
+        <!-- one flip child number -->
+        <attr name="k7uiscFlipChildNum" format="integer"  />
+        
+        <!-- child space -->
+        <attr name="k7uiscSpaceChild" format="dimension"  />
+    </declare-styleable>
+	
+    
+    <!-- 
+    	PageView specific attributes. These attributes are used to customize
+        a PageView view in XML files. 
+    -->
+    <declare-styleable name="PageView">        
+        <!-- count of item. -->
+        <attr name="k7uipvCountX" format="integer"  />
+        <attr name="k7uipvCountY" format="integer"  />
+	
+		<!-- item space padding. -->
+		<attr name="k7uipvSpaceX" format="dimension"  />
+		<attr name="k7uipvSpaceY" format="dimension"  />
+		
+		<attr name="k7uipvSpaceLeft" format="dimension"  />
+		<attr name="k7uipvSpaceRight" format="dimension"  />
+		<attr name="k7uipvSpaceTop" format="dimension"  />
+		<attr name="k7uipvSpaceBottom" format="dimension"  />
+    </declare-styleable>
+    
+    
+    <!-- 
+    	DragTextView specific attributes. These attributes are used to customize
+        a PageView view in XML files. 
+    -->
+    <declare-styleable name="DragTextView">        
+		<attr name="k7uidtvEnableDrag" format="boolean"  />
+		<attr name="k7uidtvAutoRestoreDrag" format="boolean"  />
+		<attr name="k7uidtvOverScrollFactor" format="float" type="string" />
+    </declare-styleable>
+    
+    
+    <declare-styleable name="BounceScrollView">        
+		<attr name="k7uibsvMaxOverScrollY" format="dimension"  />
+    </declare-styleable>
+    
+    <declare-styleable name="BounceListView">        
+		<attr name="k7uiblvMaxOverScrollY" format="dimension"  />
+    </declare-styleable>
+    
+    <declare-styleable name="BounceGridView">        
+		<attr name="k7uibgvMaxOverScrollY" format="dimension"  />
+    </declare-styleable>
+    
+    <declare-styleable name="BounceHorizontalScrollView">        
+		<attr name="k7uibhsvMaxOverScrollX" format="dimension"  />
+    </declare-styleable>
+    
+</resources>

@@ -1,0 +1,7 @@
+<resources> 
+    
+    <!-- effector config -->
+    <dimen name="effector_padding_h">200dp</dimen>
+    <dimen name="effector_padding_v">20dp</dimen>
+    
+</resources>

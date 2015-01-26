@@ -1,0 +1,102 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dlg_choice_bk"
+    android:orientation="vertical"
+    android:weightSum="5"
+    >
+    
+	<RelativeLayout 
+    	android:id="@+id/dlg_choice_bar"
+    	android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="1"
+    	android:background="@drawable/dlg_choice_bar_bk"
+		>
+		
+	    <TextView
+	        android:id="@+id/dlg_choice_bar_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:text="@string/app_name"
+	        android:textColor="@color/dlg_choice_bar_text_color"
+	        android:textSize="@dimen/dlg_choice_text_size"
+	        android:textStyle="bold"
+	        android:singleLine="true"
+	        android:ellipsize="end"
+	        >
+	    </TextView>
+	    
+	</RelativeLayout>
+	
+	
+	<RelativeLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="4"
+    	android:layout_marginLeft="@dimen/dlg_choice_padding_left"
+    	android:layout_marginRight="@dimen/dlg_choice_padding_right"
+    	android:layout_marginTop="@dimen/dlg_choice_space_v"
+    	android:layout_marginBottom="@dimen/dlg_choice_padding_bottom"
+		>
+	    
+		<TextView 
+        	android:id="@+id/dlg_choice_msg"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:layout_alignParentTop="true"
+    		android:layout_above="@+id/dlg_choice_op"
+    		android:gravity="center"
+    		android:text="@string/app_name"
+    		android:textColor="@color/dlg_choice_text_color"
+    		android:textSize="@dimen/dlg_choice_text_size"
+    		>
+    	</TextView>
+    	
+		<LinearLayout 
+		    android:id="@+id/dlg_choice_op"
+		    android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="@dimen/dlg_choice_space_v"
+    		android:layout_alignParentBottom="true"
+    		android:gravity="center"
+    		android:orientation="horizontal"
+		    > 
+		    
+		    <Button
+		    	android:id="@+id/dlg_choice_btn_left"
+		    	android:layout_width="@dimen/dlg_choice_btn_w"
+    			android:layout_height="@dimen/dlg_choice_btn_h"
+    			android:text="@string/app_name"
+    			android:textColor="@color/dlg_choice_text_color"
+	        	android:textSize="@dimen/dlg_choice_text_size"
+	        	android:textStyle="bold"
+	        	android:singleLine="true"
+	        	android:ellipsize="end"
+	        	android:background="@drawable/dlg_btn_bk"
+		        >
+		    </Button>
+		    
+		 	<Button
+		    	android:id="@+id/dlg_choice_btn_right"
+		    	android:layout_width="@dimen/dlg_choice_btn_w"
+    			android:layout_height="@dimen/dlg_choice_btn_h"
+    			android:layout_marginLeft="@dimen/dlg_choice_btn_space"
+    			android:text="@string/app_name"
+    			android:textColor="@color/dlg_choice_text_color"
+	        	android:textSize="@dimen/dlg_choice_text_size"
+	        	android:textStyle="bold"
+	        	android:singleLine="true"
+	        	android:ellipsize="end"
+	        	android:background="@drawable/dlg_btn_bk"
+		        >
+		    </Button>
+		    
+		</LinearLayout>
+    	
+	</RelativeLayout>
+	
+</LinearLayout>

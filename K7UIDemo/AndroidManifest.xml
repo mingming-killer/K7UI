@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eebbk.mingming.k7ui.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        >
+        
+        <activity
+            android:name=".K7UIDemo"
+            android:label="@string/app_name" 
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+        	android:name=".CoolViewPagerActivity"
+            android:screenOrientation="portrait"
+        	android:configChanges="orientation|keyboardHidden" 
+            >
+        </activity>
+        
+        <activity
+        	android:name=".CustomDlgActivity"
+            android:screenOrientation="portrait"
+        	android:configChanges="orientation|keyboardHidden" 
+            >
+        </activity>
+        
+        <activity
+        	android:name=".DragTextViewActivity"
+            android:screenOrientation="portrait"
+        	android:configChanges="orientation|keyboardHidden" 
+            >
+        </activity>
+        
+        <activity
+        	android:name=".DragComponentActivity"
+            android:screenOrientation="portrait"
+        	android:configChanges="orientation|keyboardHidden" 
+            >
+        </activity>
+        
+        <activity
+        	android:name=".CanvasEffectViewActivity"
+        	android:hardwareAccelerated="true"
+        	android:configChanges="orientation|screenSize"
+            >
+        </activity>
+        
+        <activity
+        	android:name=".GLEffectViewActivity"
+        	android:hardwareAccelerated="true"
+        	android:configChanges="orientation|screenSize"
+            >
+        </activity>
+        
+        <activity
+        	android:name=".CanvasEffectPageContainerActivity"
+        	android:hardwareAccelerated="true"
+        	android:configChanges="orientation|screenSize"
+            >
+        </activity>
+        
+        <activity
+        	android:name=".GLEffectPageContainerActivity"
+        	android:configChanges="orientation|screenSize"
+        	android:hardwareAccelerated="true"
+            >
+        </activity>
+        
+        <activity
+        	android:name=".PageContainerActivity"
+            android:screenOrientation="portrait"
+        	android:configChanges="orientation|keyboardHidden" 
+            >
+        </activity>
+        
+        <activity
+        	android:name=".BounceListViewActivity"
+            android:screenOrientation="portrait"
+        	android:configChanges="orientation|keyboardHidden" 
+            >
+        </activity>
+        
+        <activity
+        	android:name=".GLBkActivity"
+        	android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+        	android:configChanges="orientation|keyboardHidden" 
+            >
+        </activity>
+        
+        <activity
+        	android:name=".StateMachineActivity"
+            android:screenOrientation="portrait"
+        	android:configChanges="orientation|keyboardHidden" 
+            >
+        </activity>
+        
+    </application>
+
+</manifest>

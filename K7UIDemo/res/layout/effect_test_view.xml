@@ -1,0 +1,54 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ff0000"
+    android:visibility="invisible"
+    android:orientation="horizontal"
+    >
+    
+    <TextView 
+    	android:id="@+id/ev_test_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Source Image Text View"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:textColor="#ffff0000"
+        android:background="@drawable/test_bk"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        />
+    
+    <TextView 
+    	android:id="@+id/ev_test_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Left Image Text View"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:textColor="#ffff0000"
+        android:background="@drawable/test_3_1"
+         android:scaleType="fitXY"
+        android:visibility="gone"
+        />
+    
+    <TextView 
+    	android:id="@+id/ev_test_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Right Image Text View"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:textColor="#ffff0000"
+        android:background="@drawable/test_3_2"
+         android:scaleType="fitXY"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

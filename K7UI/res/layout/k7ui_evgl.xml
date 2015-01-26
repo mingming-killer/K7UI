@@ -1,0 +1,8 @@
+<com.eebbk.mingming.k7ui.effector.GLEffectView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:k7ui="http://schemas.android.com/apk/res-auto/com.eebbk.mingming.k7ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    k7ui:k7uievNeedTran="false" 
+    >
+</com.eebbk.mingming.k7ui.effector.GLEffectView>

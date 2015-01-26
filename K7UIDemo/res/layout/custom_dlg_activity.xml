@@ -1,0 +1,115 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <Button
+        android:id="@+id/btn_dlg_wait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Wait Dialog"
+        android:textSize="18sp"
+        >
+    </Button>
+    
+    <!-- 
+    <Button
+        android:id="@+id/btn_dlg_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btn_dlg_wait"
+        android:layout_marginLeft="20dp"
+        android:text="Choice Dialog"
+        android:textSize="18sp"
+        >
+    </Button>
+    -->
+    
+    
+    <SeekBar 
+    	android:id="@+id/sb_alpha"
+    	android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_dlg_wait"
+        android:max="100"
+        android:progress="0"
+    	>
+    </SeekBar>
+    
+    <SeekBar 
+    	android:id="@+id/sb_dimAmount"
+    	android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sb_alpha"
+        android:max="100"
+        android:progress="0"
+    	>
+    </SeekBar>
+    
+    
+    <Button
+        android:id="@+id/btn_dlg_in_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="Dlg in top"
+        android:textSize="18sp"
+        >
+    </Button>
+    
+    <Button
+        android:id="@+id/btn_dlg_in_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="Dlg in Bottom"
+        android:textSize="18sp"
+        >
+    </Button>
+    
+    <Button
+        android:id="@+id/btn_dlg_in_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:text="Dlg in Left"
+        android:textSize="18sp"
+        >
+    </Button>
+    
+    <Button
+        android:id="@+id/btn_dlg_in_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="Dlg in right"
+        android:textSize="18sp"
+        >
+    </Button>
+    
+    <Button
+        android:id="@+id/btn_dlg_in_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Dlg in Center"
+        android:textSize="18sp"
+        >
+    </Button>
+    
+</RelativeLayout>

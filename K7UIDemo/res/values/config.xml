@@ -1,0 +1,40 @@
+<resources> 
+    
+    <!-- other -->
+    <color name="test_fill_color">#ff8e8e8e</color>
+    
+    <color name="list_item_click_color">#ffb9e9ff</color>
+    <color name="list_item_normal_bk_color">#00ffffff</color>
+    
+    
+    <!-- wait dialog config -->
+    <dimen name="dlg_wait_w">256dp</dimen>
+    <dimen name="dlg_wait_h">104dp</dimen>
+    
+    <dimen name="dlg_wait_space">0dp</dimen>
+    <color name="dlg_wait_text_color">#ff000000</color>
+    <dimen name="dlg_wait_text_size">24sp</dimen>
+    
+    
+    <!-- system choice dialog config -->
+    <dimen name="dlg_choice_w">420dp</dimen>
+    <dimen name="dlg_choice_h">280dp</dimen>
+    
+    <dimen name="dlg_choice_btn_w">120dp</dimen>
+    <dimen name="dlg_choice_btn_h">50dp</dimen>
+    <dimen name="dlg_choice_padding_left">10dp</dimen>
+    <dimen name="dlg_choice_padding_right">10dp</dimen>
+    <dimen name="dlg_choice_padding_bottom">15dp</dimen>
+    <dimen name="dlg_choice_space_v">10dp</dimen>
+    <dimen name="dlg_choice_btn_space">80dp</dimen>
+    
+    <color name="dlg_choice_text_color">#ff000000</color>
+    <color name="dlg_choice_bar_text_color">#ffffffff</color>
+    <dimen name="dlg_choice_text_size">20sp</dimen>
+    
+    
+    <!-- effector config -->
+    <dimen name="effector_padding_h">150dp</dimen>
+    <dimen name="effector_padding_v">100dp</dimen>
+    
+</resources>

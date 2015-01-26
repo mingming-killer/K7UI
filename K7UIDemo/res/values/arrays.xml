@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<string-array name="test_functions">
+	    <item>@string/test_cool_view_pager</item>
+	    <item>@string/test_custom_dlg</item>
+	    <item>@string/test_drag_text_view</item>
+	    <item>@string/test_drag_component</item>
+	    <item>@string/test_canvas_effect_view</item>
+	    <item>@string/test_gl_effect_view</item>
+	    <item>@string/test_canvas_effect_page_container</item>
+	    <item>@string/test_gl_effect_page_container</item>
+	    <item>@string/test_bounce_list_view</item>
+	    <item>@string/test_gl_bk</item>
+	    <item>@string/test_state_machine</item>
+	</string-array>
+	
+	<string-array name="test_intents">
+	    <item>#Intent;component=com.eebbk.mingming.k7ui.demo/.CoolViewPagerActivity;end</item>
+	    <item>#Intent;component=com.eebbk.mingming.k7ui.demo/.CustomDlgActivity;end</item>
+	    <item>#Intent;component=com.eebbk.mingming.k7ui.demo/.DragTextViewActivity;end</item>
+	    <item>#Intent;component=com.eebbk.mingming.k7ui.demo/.DragComponentActivity;end</item>
+	    <item>#Intent;component=com.eebbk.mingming.k7ui.demo/.CanvasEffectViewActivity;end</item>
+	    <item>#Intent;component=com.eebbk.mingming.k7ui.demo/.GLEffectViewActivity;end</item>
+	    <item>#Intent;component=com.eebbk.mingming.k7ui.demo/.CanvasEffectPageContainerActivity;end</item>
+	    <item>#Intent;component=com.eebbk.mingming.k7ui.demo/.GLEffectPageContainerActivity;end</item>
+	    <item>#Intent;component=com.eebbk.mingming.k7ui.demo/.BounceListViewActivity;end</item>
+	    <item>#Intent;component=com.eebbk.mingming.k7ui.demo/.GLBkActivity;end</item>
+	    <item>#Intent;component=com.eebbk.mingming.k7ui.demo/.StateMachineActivity;end</item>
+	</string-array>
+	
+</resources>

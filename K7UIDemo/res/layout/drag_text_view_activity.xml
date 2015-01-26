@@ -1,0 +1,139 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:k7ui="http://schemas.android.com/apk/res-auto/com.eebbk.mingming.k7ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        >
+        
+    	<com.eebbk.mingming.k7ui.DragTextView 
+        	android:id="@+id/tv_more_start"
+        	android:layout_width="500dp"
+        	android:layout_height="50dp"
+        	android:layout_marginLeft="100dp"
+        	android:layout_marginTop="20dp"
+        	android:gravity="center_vertical|right"
+        	android:text="@string/test_large_text"
+        	android:textSize="30sp"
+        	android:textColor="#ff000000"
+        	android:singleLine="true"
+        	android:ellipsize="start"
+        	android:background="#ff8e8e8e"
+        	k7ui:k7uidtvEnableDrag="true"
+        	k7ui:k7uidtvAutoRestoreDrag="true"
+        	k7ui:k7uidtvOverScrollFactor="0.02"
+        	>
+    	</com.eebbk.mingming.k7ui.DragTextView>
+        
+    	<com.eebbk.mingming.k7ui.DragTextView 
+        	android:id="@+id/tv_small"
+        	android:layout_width="500dp"
+        	android:layout_height="50dp"
+        	android:layout_marginLeft="100dp"
+        	android:layout_marginTop="120dp"
+        	android:gravity="center"
+        	android:text="@string/test_small_text"
+        	android:textSize="30sp"
+        	android:textColor="#ffff0000"
+        	android:singleLine="true"
+        	android:ellipsize="end"
+        	android:background="#ff8e8e8e"
+        	k7ui:k7uidtvEnableDrag="true"
+        	k7ui:k7uidtvAutoRestoreDrag="true"
+        	k7ui:k7uidtvOverScrollFactor="0.02"
+        	>
+    	</com.eebbk.mingming.k7ui.DragTextView>
+        
+    	<!-- 
+    	android:drawableLeft="@drawable/ic_video"
+        android:drawableRight="@drawable/ic_arrow_right"
+    	 -->
+    	<com.eebbk.mingming.k7ui.DragTextView 
+        	android:id="@+id/tv_more_end"
+        	android:layout_width="500dp"
+        	android:layout_height="50dp"
+        	android:layout_marginLeft="100dp"
+        	android:layout_marginTop="190dp"
+        	android:gravity="center_vertical|left"
+        	android:text="@string/test_large_text"
+        	android:textSize="30sp"
+        	android:textColor="#ff00ff00"
+        	android:singleLine="true"
+        	android:ellipsize="end"
+        	android:background="#ff8e8e8e"
+        	k7ui:k7uidtvEnableDrag="true"
+        	k7ui:k7uidtvAutoRestoreDrag="false"
+        	k7ui:k7uidtvOverScrollFactor="0.02"
+        	>
+    	</com.eebbk.mingming.k7ui.DragTextView>
+    	
+    	<!-- 
+    	<TextView 
+        	android:id="@+id/tv_more_marquee"
+        	android:layout_width="match_parent"
+        	android:layout_height="50dp"
+        	android:layout_marginTop="260dp"
+        	android:gravity="center_vertical"
+        	android:text="@string/test_large_text"
+        	android:textSize="30sp"
+        	android:textColor="#ff000000"
+        	android:singleLine="true"
+        	android:ellipsize="marquee"
+        	android:background="#ff8e8e8e"
+        	>
+    	</TextView>
+    	-->
+        
+    </FrameLayout>
+	
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7" 
+        >
+    	
+        <CheckBox 
+        	android:id="@+id/cb_long_press_drag"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentTop="true"
+        	android:text="Long Press Drag"
+            >
+        </CheckBox>
+    	
+    	<!-- 
+    	com.eebbk.mingming.k7ui.demo.help.GestureContainer
+    	-->
+    	<com.eebbk.mingming.k7ui.demo.help.GestureContainer
+        	android:id="@+id/gesture_container"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_alignParentBottom="true"
+        	android:layout_below="@+id/cb_long_press_drag"
+        	>
+        
+    		<com.eebbk.mingming.k7ui.DragTextListView
+        		android:id="@+id/list_view"
+        		android:layout_width="match_parent"
+        		android:layout_height="match_parent"
+        		android:choiceMode="singleChoice"
+    			android:listSelector="@drawable/list_item_click_bk"
+    			android:divider="@drawable/list_divider"
+    			android:dividerHeight="2dp"
+    			android:background="#00ffffff"
+        		>
+    		</com.eebbk.mingming.k7ui.DragTextListView>
+    
+    	</com.eebbk.mingming.k7ui.demo.help.GestureContainer>
+    
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+	<ImageView 
+    	android:id="@+id/k7ui_dlg_anim_wait_anim_view"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+    	android:layout_centerVertical="true"
+    	android:background="@anim/k7ui_dlg_wait_anim"
+    	android:contentDescription="@string/k7ui_app_name"
+		/>
+	
+	<TextView 
+        android:id="@+id/k7ui_dlg_anim_wait_tv_msg"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_marginLeft="@dimen/k7ui_dlg_anim_wait_space"
+    	android:layout_toRightOf="@+id/k7ui_dlg_anim_wait_anim_view"
+    	android:gravity="center"
+    	android:text="@string/k7ui_app_name"
+    	android:textColor="@color/k7ui_dlg_anim_wait_text_color"
+    	android:textSize="@dimen/k7ui_dlg_anim_wait_text_size"
+    	/>
+	
+</RelativeLayout>

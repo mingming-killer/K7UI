@@ -1,0 +1,159 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+    	
+    	<Spinner
+            android:id="@+id/sp_effector"
+        	android:layout_width="200dp"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dp"
+        	android:layout_marginTop="20dp"
+        	android:layout_alignParentLeft="true"
+        	android:layout_alignParentTop="true"
+        	>
+        </Spinner>
+        
+    	<Spinner
+            android:id="@+id/sp_type"
+        	android:layout_width="200dp"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dp"
+        	android:layout_marginTop="20dp"
+        	android:layout_below="@+id/sp_effector"
+        	android:layout_alignParentLeft="true"
+        	>
+        </Spinner>
+        
+    	<Spinner
+            android:id="@+id/sp_fill"
+        	android:layout_width="200dp"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dp"
+        	android:layout_marginTop="20dp"
+        	android:layout_below="@+id/sp_type"
+        	android:layout_alignParentLeft="true"
+        	>
+        </Spinner>
+        
+    	<SeekBar 
+    	    android:id="@+id/sb_effect_factor"
+    	    android:layout_width="300dp"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dp"
+        	android:layout_marginTop="20dp"
+        	android:layout_alignParentLeft="true"
+        	android:layout_below="@+id/sp_fill"
+        	android:max="100"
+        	android:progress="0"
+    	    >
+    	</SeekBar>
+        
+    	
+    	<CheckBox 
+        	android:id="@+id/cb_high_quality"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginRight="20dp"
+        	android:layout_marginTop="20dp"
+        	android:layout_alignParentTop="true"
+        	android:layout_alignParentRight="true"
+        	android:gravity="center_vertical|left"
+        	android:text="@string/quality"
+        	android:textSize="18sp"
+        	android:textColor="#ff000000"
+        	android:singleLine="true"
+        	>
+    	</CheckBox>
+    	
+    	<CheckBox 
+        	android:id="@+id/cb_reverse"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginRight="20dp"
+        	android:layout_marginTop="20dp"
+        	android:layout_alignParentRight="true"
+        	android:layout_below="@+id/cb_high_quality"
+        	android:gravity="center_vertical|left"
+        	android:text="@string/reverse"
+        	android:textSize="18sp"
+        	android:textColor="#ff000000"
+        	android:singleLine="true"
+        	>
+    	</CheckBox>
+    	
+    	<CheckBox 
+        	android:id="@+id/cb_fill"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginRight="20dp"
+        	android:layout_marginTop="20dp"
+        	android:layout_alignParentRight="true"
+        	android:layout_below="@+id/cb_reverse"
+        	android:gravity="center_vertical|left"
+        	android:text="@string/fill"
+        	android:textSize="18sp"
+        	android:textColor="#ff000000"
+        	android:singleLine="true"
+        	>
+    	</CheckBox>
+        
+    </RelativeLayout>
+	
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        >
+    	
+        <!-- android:background="@drawable/test_bk" -->
+        <TextView 
+            android:id="@+id/src_view"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:gravity="center"
+        	android:text="SRC VIEW"
+        	android:textSize="80sp"
+        	android:textStyle="bold"
+        	android:textColor="#ffff0000"
+        	android:background="@drawable/test_1"
+        	android:visibility="invisible"
+            />
+    	
+    	<com.eebbk.mingming.k7ui.effector.CanvasEffectView
+        	android:id="@+id/effect_view"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_centerInParent="true"
+        	/>
+    	
+    	<TextView 
+            android:id="@+id/dst_view"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_alignParentRight="true"
+        	android:layout_centerVertical="true"
+        	android:gravity="center"
+        	android:text="DST VIEW"
+        	android:textSize="100sp"
+        	android:textStyle="bold"
+        	android:textColor="#ff0000ff"
+        	android:background="@drawable/test_2"
+        	android:visibility="invisible"
+            />
+    	
+    </FrameLayout>
+
+</LinearLayout>

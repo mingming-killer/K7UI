@@ -1,0 +1,53 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:k7ui="http://schemas.android.com/apk/res-auto/com.eebbk.mingming.k7ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        >
+        
+    </FrameLayout>
+	
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7" 
+        >
+    	
+        <CheckBox 
+        	android:id="@+id/cb_long_press_drag"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentTop="true"
+        	android:text="Long Press Drag"
+            >
+        </CheckBox>
+    	
+    	<!-- 
+    	com.eebbk.mingming.k7ui.demo.help.GestureContainer
+    	-->
+        <com.eebbk.mingming.k7ui.demo.help.MyDragComponentListView
+        	android:id="@+id/list_view"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_alignParentBottom="true"
+        	android:layout_below="@+id/cb_long_press_drag"
+        	android:choiceMode="singleChoice"
+    		android:listSelector="@drawable/list_item_click_bk"
+    		android:divider="@drawable/list_divider"
+    		android:dividerHeight="2dp"
+    		android:background="#00ffffff"
+        	>
+    	</com.eebbk.mingming.k7ui.demo.help.MyDragComponentListView>
+    	
+    </RelativeLayout>
+	
+</LinearLayout>

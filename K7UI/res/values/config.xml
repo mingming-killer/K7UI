@@ -1,0 +1,11 @@
+<resources> 
+    
+    <!-- animation wait dialog config -->
+    <dimen name="dlg_wait_w">256dp</dimen>
+    <dimen name="dlg_wait_h">104dp</dimen>
+    
+    <dimen name="k7ui_dlg_anim_wait_space">0dp</dimen>
+    <color name="k7ui_dlg_anim_wait_text_color">#ff000000</color>
+    <dimen name="k7ui_dlg_anim_wait_text_size">24sp</dimen>
+    
+</resources>

@@ -1,0 +1,21 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <com.eebbk.mingming.k7ui.demo.help.MachineView
+    	android:id="@+id/machine_view"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent" 
+        >
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="match_parent"
+    		android:layout_height="match_parent" 
+        	/>
+    </com.eebbk.mingming.k7ui.demo.help.MachineView>
+
+</FrameLayout>
+ 

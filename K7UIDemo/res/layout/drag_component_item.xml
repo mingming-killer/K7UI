@@ -1,0 +1,97 @@
+<com.eebbk.mingming.k7ui.demo.help.MyDragComponent
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:k7ui="http://schemas.android.com/apk/res-auto/com.eebbk.mingming.k7ui"
+    android:id="@+id/drag_component"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    >
+    
+    <FrameLayout
+        android:id="@+id/left_component"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="#ffff0000"
+        >
+        
+        <Button
+            android:id="@+id/left_component_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Left"
+            android:focusable="false"
+            >
+        </Button>
+
+    </FrameLayout>
+	
+	<RelativeLayout 
+	    android:id="@+id/main_component"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	>
+        
+	    <ImageView
+        	android:id="@+id/main_component_ic_left"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:contentDescription="@string/app_name"
+        	android:scaleType="fitXY"
+        	android:src="@drawable/ic_video" 
+        	>
+    	</ImageView>
+    	
+	   	<TextView 
+    		android:id="@+id/main_component_tv"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:layout_toRightOf="@+id/main_component_ic_left"
+    		android:layout_toLeftOf="@+id/main_component_ic_right"
+    		android:paddingTop="0dp"
+    		android:paddingBottom="0dp"
+    		android:layout_marginLeft="20dp"
+    		android:layout_marginRight="20dp"
+    		android:gravity="left|center_vertical"
+    		android:text="@string/app_name"
+    		android:textColor="#ff000000"
+    		android:textSize="18sp"
+    		android:singleLine="true"
+    		android:ellipsize="end"
+    		>
+		</TextView>
+		
+	   	<Button
+	    	android:id="@+id/main_component_ic_right"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_alignParentRight="true"
+	    	android:layout_centerVertical="true"
+	    	android:text="test"
+	    	android:focusable="false"
+	    	>
+    	</Button>
+    	
+	</RelativeLayout>
+	
+	<FrameLayout
+        android:id="@+id/right_component"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="#ff0000ff"
+        >
+        
+        <Button
+            android:id="@+id/right_component_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Right"
+            android:focusable="false"
+            >
+        </Button>
+
+    </FrameLayout>
+
+</com.eebbk.mingming.k7ui.demo.help.MyDragComponent>
